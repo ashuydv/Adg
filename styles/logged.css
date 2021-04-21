@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url(/style.css);
+.btn-exit {
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: .8px solid #6A6A6B!important;
+}
+
+.btn-exit img {
+    padding: 0px 5px;
+}
+
+.btn-exit a,
+.btn-exit a:hover {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6A6A6B;
+}
+
+.groups {
+    margin-top: 3.375rem;
+}
+
+.groups h4 {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.groups h4 img {
+    width: 16.5px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.group-items {
+    margin-top: 1.5rem;
+}
+
+.group-items ul {
+    list-style: none;
+}
+
+.group-items ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 22px 0;
+}
+
+.group-items ul li p {
+    margin-bottom: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.group-items ul li p img {
+    padding-right: 12px;
+}
+
+.group-items ul li .btn {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 60px;
+    height: 30px;
+    background: #EDEEF0;
+    border-radius: 14px;
+}
+
+.group-items a {
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    position: absolute;
+    margin-top: 40px;
+    right: 105px;
+}
+
+.create .footer .left p {
+    display: flex;
+    align-items: center;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+    width: 160px;
+    flex-wrap: nowrap;
+}
+
+.create .footer .left p img {
+    margin: 0rem .5rem;
+    width: 36px;
+    height: 36px;
+}
